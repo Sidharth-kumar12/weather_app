@@ -19,6 +19,6 @@ def get_weather(city, api_key):
     else:
         print("Failed to fetch weather data.")
 
-api_key = "48060542d0ead16163cd61cde9ae920c"  # Replace with your actual API key
+api_key = ""  # Replace with your actual API key
 city_name = input("Enter city name: ")
 get_weather(city_name, api_key)
